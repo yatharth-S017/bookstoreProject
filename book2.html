@@ -25,30 +25,29 @@
             100% { background-position: 0% 100%}
         }
 
-        
+        @media screen and (orientation:landscape){
+            main{
+               width: 64%; 
+           }
+           .feedback{
+             margin-left: 170px;
+           }
+        }
 
 
         summary{
             margin-bottom: 0.7em;
             font-weight: 500;
         }
-        li{
-            
-        }
-
+       
         footer{
             width: 100%;
         }
 
-        main{
-            
-            width: 760px;
-        }
+        
 
 
-        .feedback{
-            margin-left: 180px;
-        }
+        
         textarea{
             width: 100%;
         }
@@ -143,7 +142,7 @@
                     <div>
                         <label for="" class="form-label">Feedback</label>
                         <br>
-                        <textarea name="" id="feed" rows="2" ></textarea>
+                        <textarea name="" id="feed"  class="form-control" ></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary w-100" >Submit</button>
