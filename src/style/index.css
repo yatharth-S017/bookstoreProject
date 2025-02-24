@@ -1,7 +1,9 @@
 @media screen and (orientation: portrait) {
     .content{
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
+       
+        
     }
     img{
         padding: 10px;

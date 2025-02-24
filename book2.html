@@ -27,11 +27,9 @@
 
         @media screen and (orientation:landscape){
             main{
-               width: 64%; 
+               width: 66%; 
            }
-           .feedback{
-             margin-left: 170px;
-           }
+           
         }
 
 
@@ -132,22 +130,25 @@
 
             <div>
                 <div class="mt-2 mb-4 fw-medium">Feedback Form</div>
+                <div  style="text-align: center; align-items: center; display: flex; justify-content: center;" >
 
-                <div class="w-50 border  d-block p-3 mb-4 bg-body-secondary feedback" >
+                
+                <form class="w-50 border  d-block p-3 mb-4 bg-body-secondary  feedback" >
                     <div>
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" name="" id="name" class="form-control">
+                        <input type="text" name="Name" id="name" class="form-control" required>
                     </div>
 
                     <div>
                         <label for="" class="form-label">Feedback</label>
                         <br>
-                        <textarea name="" id="feed"  class="form-control" ></textarea>
+                        <textarea name="Feedback" id=""  class="form-control"></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary w-100" >Submit</button>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
 
-                </div>
+                </from>
+            </div>
             </div>
         </div>
     </main>
