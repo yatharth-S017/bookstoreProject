@@ -1,0 +1,13 @@
+@media screen and (orientation: portrait) {
+    main{
+        width: 80%;
+    }
+
+    .feedback{
+        width: 250px !important;
+        margin-left: 0px;
+    }
+    #feed{
+        width: 100% !important;
+    }
+}
